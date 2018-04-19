@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity() {
         p4minus.setOnClickListener {
             var life1: Int = p4.text.toString().toInt() - 1
             if (life1 <= 0) {
-                p4.text = "Player 2 LOSES!"
+                p4.text = "Player 4 LOSES!"
             } else {
                 p4.text = life1.toString()
             }
